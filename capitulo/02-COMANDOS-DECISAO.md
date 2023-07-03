@@ -2,6 +2,8 @@
 
 ## Sumário
 
+ - [Expressões lógicas](#expressões-lógicas)
+ - [Decisão Simples](#decisão-simples)
 ## Expressões lógicas
 
 Em C não existe um tipo específica para valores lógicos (verdadeiro ou falso). Qualquer valor pode ser interpretado como um valor lógico:
@@ -34,3 +36,9 @@ Além disso, na linguagem C também existem os operadores lógicos. A partir del
 | `!` x             | verdade se e somente se x for falso         |
 | x `&&` y          | verdade se e somente se x e y forem verdade |
 | x `\|\|` y        | verdade se e somente x ou y for verdade     |
+
+## Decisão simples
+
+A estrutura condicional, ou decisão simples, serve para escolher um entre dois comandos alternativos. A Figura a seguir mostra o fluxo de execução de um trecho de código que utiliza uma estrutura condicional.
+
+![](2023-07-03-17-24-26.png)
