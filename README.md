@@ -1,6 +1,6 @@
-# Apostila de Linguagem C
+# Apostila de Linguagem C [^1]
 
-Material adaptado de [Linguagem C - Curso Completo (Sílvio do Lago Pereira)](https://www.ime.usp.br/~slago/main.materiais.html)
+
 
 ## Sumário
 1. [Introdução](./capitulo/01-INTRODUCAO.md)
@@ -9,3 +9,5 @@ Material adaptado de [Linguagem C - Curso Completo (Sílvio do Lago Pereira)](ht
 4. [A biblioteca math.h](./capitulo/04-BIBLIOTECA-MATH.md)
 5. [Vetores, Strings e Matrizes](./capitulo/05-VETORES-STRINGS-MATRIZES.md)
 6. [Funções](./capitulo/06-FUNCOES.md)
+
+[^1]: Material adaptado de [Linguagem C - Curso Completo (Sílvio do Lago Pereira)](https://www.ime.usp.br/~slago/main.materiais.html)
