@@ -1,6 +1,6 @@
 # Introdução
 
-Um programa em C consiste de funções e pelo menos uma delas é definida de forma obrigatória, a função main. Essa é a função principal, no qual a execução de todos os programas são iniciadas a partir dela. As chaves `{` e `}` servem para delimitar um bloco de instruções.
+Um programa em C consiste de funções e pelo menos uma delas é definida de forma obrigatória, a função `main`. Essa é a função principal, no qual a execução de todos os programas são iniciadas a partir dela. As chaves `{` e `}` servem para delimitar um bloco de instruções.
 
 ## Sumário
 
@@ -21,14 +21,14 @@ Na linguagem C utiliza-se cinco tipos de dados:
 
 |      Tipo     |  Espaço |           Escala          |
 |:-------------:|:-------:|:-------------------------:|
-| char          | 1 byte  | -128 a +127               |
-| int           | 2 bytes | -32768 a +32767           |
-| float         | 4 bytes | 3.4e-38 a 3.4e+38         |
-| double        | 8 bytes | 1.7e-308 a 1.7e+308       |
-| void          | nenhum  | nenhuma                   |
-| unsigned char | 1 byte  | 0 a 255                   |
-| unsigned int  | 2 bytes | 0 a 65535                 |
-| long int      | 4 bytes | -2147483648 a +2147483647 |
+| `char`          | 1 byte  | -128 a +127               |
+| `int`           | 2 bytes | -32768 a +32767           |
+| `float`         | 4 bytes | 3.4e-38 a 3.4e+38         |
+| `double`        | 8 bytes | 1.7e-308 a 1.7e+308       |
+| `void`          | nenhum  | nenhuma                   |
+| `unsigned char` | 1 byte  | 0 a 255                   |
+| `unsigned int`  | 2 bytes | 0 a 65535                 |
+| `long int`      | 4 bytes | -2147483648 a +2147483647 |
 
 ## Declaração de variáveis
 
@@ -52,12 +52,12 @@ Para a leitura de uma variável, utiliza-se um especificador referente ao tipo d
 
 | Especificador |                     Representa                     |
 |:-------------:|:--------------------------------------------------:|
-|       %c      | um único caracter                                  |
-|   %o, %d, %x  | um número inteiro em octal, decimal ou hexadecimal |
-|       %u      | um número inteiro em base decimal sem sinal        |
-|      %ld      | um número inteiro longo em case decimal            |
-|    %f, %lf    | um número real de precisão simples ou dupla        |
-|       %s      | uma cadeia de caracteres (string)                  |
+|       `%c`      | um único caracter                                  |
+|   `%o`, `%d`, `%x`  | um número inteiro em octal, decimal ou hexadecimal |
+|       `%u`      | um número inteiro em base decimal sem sinal        |
+|      `%ld`      | um número inteiro longo em case decimal            |
+|    `%f`, `%lf`    | um número real de precisão simples ou dupla        |
+|       `%s`      | uma cadeia de caracteres (string)                  |
 
 Ao interpretar um comando `scanf()`, o fluxo de execução de um programa fica em espera até que uma informação seja entrada via teclado. A função `scanf()` pode ser utilizada para obter a leitura de uma ou mais variáveis. O exemplo a seguir mostra essas duas situações:
 
@@ -107,12 +107,12 @@ Além disso, é possível utilizar caracteres especiais com a finalidade de orga
 
 | Caractere de controle |               Efeito              |
 |:---------------------:|:---------------------------------:|
-| \n                    | quebra de linha                   |
-| \t                    | tabulação                         |
-| \”                    | exibe uma única aspa              |
-| \’                    | exibe um único apóstrofo          |
-| \\                    | exibe uma única barra invertida   |
-|           %s          | uma cadeia de caracteres (string) |
+| `\n`                    | quebra de linha                   |
+| `\t`                    | tabulação                         |
+| `\”`                    | exibe uma única aspa              |
+| `\’`                    | exibe um único apóstrofo          |
+| `\\`                    | exibe uma única barra invertida   |
+|           `%s`          | uma cadeia de caracteres (string) |
 
 O exemplo a seguir mostra algumas situações para a utilização dos caracteres de controle:
 
@@ -132,11 +132,11 @@ A linguagem C oferece operadores para as quatro operações aritméticas e um op
 
 | Operador |                 Resultado                 |
 |:--------:|:-----------------------------------------:|
-|     +    | soma de dois números quaisquer            |
-|     -    | diferença entre dois números quaisquer    |
-|     *    | produto de dois números quaisquer         |
-|     /    | quociente da divisão de dois números      |
-|     %    | resto da divisão de dois números inteiros |
+|     `+`    | soma de dois números quaisquer            |
+|     `-`    | diferença entre dois números quaisquer    |
+|     `*`    | produto de dois números quaisquer         |
+|     `/`    | quociente da divisão de dois números      |
+|     `%`    | resto da divisão de dois números inteiros |
 
 Os operadores de divisão e de resto merecem uma atenção especial:
 
