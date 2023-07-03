@@ -214,7 +214,7 @@ Obs.: a variável `e` é lida pelo usuário.
 
 16. Escreva um algoritmo que determine o número de dias que uma pessoa já viveu a partir da data de nascimento. Leia os valores para o dia, mês e ano de nascimento separadamente. Considere que um mês tenha 30 dias e o dia de nascimento e o dia atual fazem parte do total de dias vividos.
 
-Ex.: Utilize os dados a seguir para validar o algoritmo desenvolvido.
+    - Ex.: Utilize os dados a seguir para validar o algoritmo desenvolvido:
 
 |  Dia atual | Data de nascimento | Dias vividos |
 |:----------:|:------------------:|:------------:|
@@ -233,8 +233,7 @@ Ex.: Utilize os dados a seguir para validar o algoritmo desenvolvido.
     - R$ 5.50 por diária, se o número de diárias for maior que 15; 
     - R$ 6.00 por diária, se o número de diárias for igual a 15; 
     - R$ 8.00 por diária, se o número de diárias for menor que 15. 
-
-Construa um algoritmo que mostre o total da conta de um cliente.
+- Construa um algoritmo que mostre o total da conta de um cliente.
 
 21. Faça um algoritmo que leia 3 números inteiros distintos e escreva o menor deles.
 
