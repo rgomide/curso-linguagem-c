@@ -241,4 +241,4 @@ Obs.: a variável `e` é lida pelo usuário.
 
 ![](./assets/img/2023-07-03-19-04-43.png)
 
-Crie um algoritmo que apresente o conceito e a nota de um aluno.
+- Crie um algoritmo que apresente o conceito e a nota de um aluno.
