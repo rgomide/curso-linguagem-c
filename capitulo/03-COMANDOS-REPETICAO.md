@@ -73,7 +73,7 @@ for(inicialização; condição de permanência; alteração) comando;
 
 A **inicialização** é uma expressão que atribui um valor inicial ao contador, a **condição de permanência** verifica se a contagem chegou ao fim e a **alteração** modifica o valor do contador. O funcionamento dessa estrutura é ilustrado na figura a seguir:
 
-<img src="./assets/img/2023-07-05-17-30-45.png" width="400" align="center"/>
+<img src="./assets/img/2023-07-05-17-30-45.png" width="400"/>
 
 O exemplo a seguir mostra um programa que faz uma contagem de 1 até 10:
 
@@ -155,7 +155,7 @@ while (condição) comando;
 
 Essa estrutura é controlada por uma expressão lógica, que é a condição de permanência no laço de repetição. A Figura a seguir mostra o funcionamento dessa estrutura:
 
-![](./assets/img/2023-07-05-17-34-33.png)
+<img src="./assets/img/2023-07-05-17-34-33.png" width="500" />
 
 A repetição por precondição é mais adequada em situações em que não é possível determinar o número de repetições a ser executada. Assim, a permanência no laço de repetição é definida a partir de fatores como entrada de dados ou expressões aritméticas.
 
