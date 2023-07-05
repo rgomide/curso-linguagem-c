@@ -45,7 +45,8 @@ Além disso, na linguagem C também existem os operadores lógicos. A partir del
 
 A estrutura condicional, ou decisão simples, serve para escolher um entre dois comandos alternativos. A Figura a seguir mostra o fluxo de execução de um trecho de código que utiliza uma estrutura condicional.
 
-![](./assets/img/2023-07-03-17-25-41.png)
+
+<img src="./assets/img/2023-07-03-17-25-41.png" width="700"/>
 
 Em C a estrutura condicional é codificada da seguinte forma:
 ```C
