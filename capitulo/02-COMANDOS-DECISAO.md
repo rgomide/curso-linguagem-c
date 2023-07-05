@@ -239,6 +239,11 @@ Obs.: a variável `e` é lida pelo usuário.
 
 22. Suponha que o conceito de um aluno seja determinado em função da sua nota. Suponha, também, que esta nota seja um valor inteiro na faixa de 0 a 100, conforme a seguinte faixa:
 
-![](./assets/img/2023-07-03-19-04-43.png)
+|   Nota   |   Conceito   |
+|:--------:|:------------:|
+|  0 a 49  | Insuficiente |
+|  50 a 64 |    Regular   |
+|  65 a 84 |      Bom     |
+| 85 a 100 |     Ótimo    |
 
 - Crie um algoritmo que apresente o conceito e a nota de um aluno.
