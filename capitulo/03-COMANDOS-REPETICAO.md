@@ -73,6 +73,8 @@ for(inicialização; condição de permanência; alteração) comando;
 
 A **inicialização** é uma expressão que atribui um valor inicial ao contador, a **condição de permanência** verifica se a contagem chegou ao fim e a **alteração** modifica o valor do contador. O funcionamento dessa estrutura é ilustrado na figura a seguir:
 
+<img src="./assets/img/2023-07-05-17-30-45.png" with="150" align="center"/>
+
 ![](./assets/img/2023-07-05-17-30-45.png)
 
 O exemplo a seguir mostra um programa que faz uma contagem de 1 até 10:
