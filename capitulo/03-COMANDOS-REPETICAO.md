@@ -232,6 +232,10 @@ S=\frac{1}{1}-\frac{3}{2}+\frac{5}{3}-\frac{7}{4}+...-\frac{99}{50}
 
 23. Desenvolva um algoritmo capaz de calcular o resultado da seguinte expressão aritmética, onde o valor de n é informado pelo usuário:  
 
+```math
+S_{n} = 1^{1} + 2^{2} + 3^{3} + ... + n^{n}
+```
+
 Faça um algoritmo que leia um conjunto indeterminado de números (X) e imprima a soma e a média desses números. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
 Faça um algoritmo que leia um conjunto indeterminado de dados numéricos (X) e imprima o maior número dentre eles. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
 Faça um algoritmo que leia dois números inteiros x e y positivos e imprima o quociente e o resto da divisão de x por y utilizando apenas as operações de adição e subtração.
