@@ -222,10 +222,15 @@ que encontram-se no intervalo entre 1 e 10.
 \pi=4\sum_{k=0}^{n}(-1)^{k}(\frac{1}{2k+1})
 ```
 
-onde n deve ser informado pelo usuário e corresponde ao grau de precisão no cálculo do valor de π.  
-Desenvolva um algoritmo para calcular e imprimir o valor de S na expressão a seguir:
+onde `n` deve ser informado pelo usuário e corresponde ao grau de precisão no cálculo do valor de `π`.  
 
-Desenvolva um algoritmo capaz de calcular o resultado da seguinte expressão aritmética, onde o valor de n é informado pelo usuário:  
+22. Desenvolva um algoritmo para calcular e imprimir o valor de S na expressão a seguir:
+
+```math
+S=\frac{1}{1}+\frac{3}{2}
+```
+
+23. Desenvolva um algoritmo capaz de calcular o resultado da seguinte expressão aritmética, onde o valor de n é informado pelo usuário:  
 
 Faça um algoritmo que leia um conjunto indeterminado de números (X) e imprima a soma e a média desses números. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
 Faça um algoritmo que leia um conjunto indeterminado de dados numéricos (X) e imprima o maior número dentre eles. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
