@@ -227,7 +227,7 @@ onde `n` deve ser informado pelo usuário e corresponde ao grau de precisão no 
 22. Desenvolva um algoritmo para calcular e imprimir o valor de S na expressão a seguir:
 
 ```math
-S=\frac{1}{1}+\frac{3}{2}
+S=\frac{1}{1}-\frac{3}{2}+\frac{5}{3}-\frac{7}{4}+...-\frac{99}{50}
 ```
 
 23. Desenvolva um algoritmo capaz de calcular o resultado da seguinte expressão aritmética, onde o valor de n é informado pelo usuário:  
