@@ -1,5 +1,13 @@
 # Comandos de Repetição
 
+## Sumário
+
+- [Expressões compactas](#expressões-compactas)
+- [Operadores aritméticos de atribuição](#operadores-aritméticos-de-atribuição)
+- [Incremento e Decremento](#incremento-e-decremento)
+- [Repetição com contador](#repetição-com-contador)
+- [Repetição com precondição](#repetição-com-precondição)
+- [Exercícios](#exercícios)
 ## Expressões compactas
 
 Em várias situações há a necessidade de escrever expressões da forma `var = var operador expressão` (ex.: x = x + 2;). Para simplificar a escrita de código, existe um grupo especial de operadores de atribuição que simplifica a linha de código.
