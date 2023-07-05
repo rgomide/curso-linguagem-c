@@ -291,3 +291,5 @@ Número de conta completo: `007314−5`
 Encerre a entrada de dados quando for digitada uma idade negativa.
 
 37. Faça um algoritmo que leia um número inteiro n, calcule e mostre o maior quadrado menor ou igual a n. Por exemplo, se n for igual a 38, o menor quadrado é 36 (quadrado de 6).
+
+[Voltar](../)

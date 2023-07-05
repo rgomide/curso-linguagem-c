@@ -183,3 +183,5 @@ Os operadores de divisão e de resto merecem uma atenção especial:
     - O terceiro dígito, representado pela letra S, vale 1 ou 2, conforme o aluno tenha se matriculado no 1º ou 2º semestre; 
     - Os três últimos dígitos, representados pela letra D, correspondem à ordem da matrícula do aluno, no semestre e no ano em questão.
     - Crie um algoritmo que leia o número de matrícula de um aluno e imprima o ano e o semestre em que ele foi matriculado.
+
+[Voltar](../)
