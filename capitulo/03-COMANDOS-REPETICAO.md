@@ -236,37 +236,50 @@ S=\frac{1}{1}-\frac{3}{2}+\frac{5}{3}-\frac{7}{4}+...-\frac{99}{50}
 S_{n} = 1^{1} + 2^{2} + 3^{3} + ... + n^{n}
 ```
 
-Faça um algoritmo que leia um conjunto indeterminado de números (X) e imprima a soma e a média desses números. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
-Faça um algoritmo que leia um conjunto indeterminado de dados numéricos (X) e imprima o maior número dentre eles. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
-Faça um algoritmo que leia dois números inteiros x e y positivos e imprima o quociente e o resto da divisão de x por y utilizando apenas as operações de adição e subtração.
-Faça um algoritmo que leia um conjunto indeterminado de números (X) e imprima a quantidade de números pares e a quantidade de números ímpares lidos. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
-Numa certa agência bancária, as contas são identificadas por números de até seis dígitos seguidos de um dígito verificador, calculado conforme  exemplificado  a  seguir.  Dado  um  número  de  conta  n,  exiba  o número de conta completo correspondente. 
+24. Faça um algoritmo que leia um conjunto indeterminado de números (X) e imprima a soma e a média desses números. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
+
+25. Faça um algoritmo que leia um conjunto indeterminado de dados numéricos (X) e imprima o maior número dentre eles. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
+
+26. Faça um algoritmo que leia dois números inteiros x e y positivos e imprima o quociente e o resto da divisão de x por y utilizando apenas as operações de adição e subtração.
+
+27. Faça um algoritmo que leia um conjunto indeterminado de números (X) e imprima a quantidade de números pares e a quantidade de números ímpares lidos. Admita que o valor 9999 seja utilizado como mecanismo para o fim da leitura.
+
+28. Numa certa agência bancária, as contas são identificadas por números de até seis dígitos seguidos de um dígito verificador, calculado conforme  exemplificado  a  seguir.  Dado  um  número  de  conta  n,  exiba  o número de conta completo correspondente. 
+
 Ex.: Seja n = 7314 o número da conta.
-1 - Adicionamos os dígitos de n e obtemos a soma s = 4+1+3+7 = 15; 
-2 - Calculamos o resto da divisão de s por 10 e obtemos o dígito d = 5. 
-Número de conta completo: 007314−5
-Um  número  natural  é  triangular se  é  igual  à  soma  dos  n primeiros números naturais consecutivos, a partir de 1. Por exemplo,  1,  3,  6, 10, 15, ... são triangulares. Dado um natural n ≥ 1, informe se ele é triangular.
-Dada uma série de números positivos (finalizada com um valor igual a zero) que  representam as idades das pessoas que moram num certo bairro, determine a idade da pessoa mais nova e a da pessoa mais velha.
-Um  comerciante  precisa  informatizar  o  caixa  de  sua loja. Para isso ele precisa de um programa que leia uma série de valores correspondendo aos preços das mercadorias compradas por um cliente (o valor zero finaliza  a  entrada),  calcule  o  valor  total,  subtraia  deste  valor  o  desconto devido  (vide  tabela  ao  lado)  e,  finalmente,  mostre  o  valor  a  ser  pago  pelo cliente. Codifique esse programa.
-Total
-Desconto
-abaixo de R$ 50,00
-5%
-até R$ 100,00
-10%
-até R$ 200,00
-15%
-acima de R$ 200,00
-20%
 
-Faça um programa que calcule o saldo de uma conta bancária tendo como entrada o saldo inicial e uma série  de operações de crédito e/ou débito finalizada com o valor zero. O programa deve apresentar como saída o total de créditos, o total de débitos, a  CPMF paga (0,35% do total de débitos) e o saldo final. Veja um exemplo:
+- Adicionamos os dígitos de n e obtemos a soma s = 4+1+3+7 = 15; 
+- Calculamos o resto da divisão de s por 10 e obtemos o dígito d = 5. 
 
-Faça um algoritmo que converta um número da base 10 para a base X utilizando o método das divisões sucessivas. X deve ser informado pelo usuário.
-Faça um algoritmo que converta um número da base X para a base 10 utilizando o método do polinômio. X deve ser informado pelo usuário.
-Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,10 metros e cresce 3 centímetros por ano. Construa um algoritmo que calcule e imprima quantos anos serão necessários para que Zé seja maior que Chico.
-Foi feita uma pesquisa entre os habitantes de uma região. Foram coletados os dados de idade, sexo (0 para masculino e 1 para feminino) e salário. Faça um algoritmo que informe: 
-a)  a média de salário do grupo; 
-b)  a maior e a menor idade do grupo; 
-c)  a quantidade de mulheres com salário até R$100,00. 
+Número de conta completo: `007314−5`
+
+29. Um  número  natural  é  triangular se  é  igual  à  soma  dos  n primeiros números naturais consecutivos, a partir de 1. Por exemplo,  1,  3,  6, 10, 15, ... são triangulares. Dado um natural n ≥ 1, informe se ele é triangular.
+
+30. Dada uma série de números positivos (finalizada com um valor igual a zero) que  representam as idades das pessoas que moram num certo bairro, determine a idade da pessoa mais nova e a da pessoa mais velha.
+
+31. Um  comerciante  precisa  informatizar  o  caixa  de  sua loja. Para isso ele precisa de um programa que leia uma série de valores correspondendo aos preços das mercadorias compradas por um cliente (o valor zero finaliza  a  entrada),  calcule  o  valor  total,  subtraia  deste  valor  o  desconto devido  (vide  tabela  ao  lado)  e,  finalmente,  mostre  o  valor  a  ser  pago  pelo cliente. Codifique esse programa.
+
+|        Total       | Desconto |
+|:------------------:|:--------:|
+| abaixo de R$ 50,00 |    5%    |
+|    até R$ 100,00   |    10%   |
+|    até R$ 200,00   |    15%   |
+| acima de R$ 200,00 |    20%   |
+
+32. Faça um programa que calcule o saldo de uma conta bancária tendo como entrada o saldo inicial e uma série  de operações de crédito e/ou débito finalizada com o valor zero. O programa deve apresentar como saída o total de créditos, o total de débitos, a  CPMF paga (0,35% do total de débitos) e o saldo final. Veja um exemplo:
+
+![](./assets/img/2023-07-05-17-58-22.png)
+
+33. Faça um algoritmo que converta um número da base 10 para a base X utilizando o método das divisões sucessivas. X deve ser informado pelo usuário.
+
+34. Faça um algoritmo que converta um número da base X para a base 10 utilizando o método do polinômio. X deve ser informado pelo usuário.
+
+35. Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,10 metros e cresce 3 centímetros por ano. Construa um algoritmo que calcule e imprima quantos anos serão necessários para que Zé seja maior que Chico.
+
+36. Foi feita uma pesquisa entre os habitantes de uma região. Foram coletados os dados de idade, sexo (0 para masculino e 1 para feminino) e salário. Faça um algoritmo que informe: 
+    1. a média de salário do grupo; 
+    2. a maior e a menor idade do grupo; 
+    3. a quantidade de mulheres com salário até R$100,00. 
 Encerre a entrada de dados quando for digitada uma idade negativa.
-Faça um algoritmo que leia um número inteiro n, calcule e mostre o maior quadrado menor ou igual a n. Por exemplo, se n for igual a 38, o menor quadrado é 36 (quadrado de 6).
+
+37. Faça um algoritmo que leia um número inteiro n, calcule e mostre o maior quadrado menor ou igual a n. Por exemplo, se n for igual a 38, o menor quadrado é 36 (quadrado de 6).
