@@ -15,7 +15,7 @@
 
 Um vetor é uma coleção de variáveis de um mesmo tipo, que compartilham o mesmo nome e que ocupam posições consecutivas de memória. Cada uma dessas variáveis denomina-se elemento e é identificada por um índice. Se v é um vetor com n posições, seus elementos são `v[0], v[1], v[2], …, v[n - 1]`. A Figura a seguir mostra a estrutura de um vetor e os seus elementos.
 
-<img src="./assets/img/vetor.drawio.png" width="450"/>
+<img src="./assets/img/vetor.drawio.png" width="550"/>
 
 Na linguagem C os vetores são sempre indexados a partir da posição zero e o último elemento de um vetor de tamanho n ocupa a posição `n - 1` do vetor. Para criar um vetor, declare uma variável com o sufixo `[n]`, sendo n uma constante indicando o número de elementos a serem alocados no vetor.
 
