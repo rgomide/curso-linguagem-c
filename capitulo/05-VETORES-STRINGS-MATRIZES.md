@@ -185,6 +185,39 @@ A cada consulta realizada o programa deverá apresentar novamente o menu com as 
 
 ### Strings
 
+13. Sem utilizar a função `strcpy`, codifique um programa que faça a cópia de uma string de uma variável para outra.
+
+14. Sem utilizar a função `strlen`, codifique um programa que calcule a quantidade de caracteres válidos de uma string.
+
+Codifique um programa que converta todos os caracteres de uma string para letras maiúsculas. Obs.: um caractere pode ser representado por um número do tipo inteiro, utilize a máscara `%d` para exibir um caractere. Note que existe uma relação entre as letras maiúsculas e minúsculas.
+
+<img src="./assets/img/2023-07-07-17-50-02.png" width="900"/>
+
+16. Codifique um programa que converta todos os caracteres de uma string para letras minúsculas. Obs.: um caractere pode ser representado por um número do tipo inteiro, utilize a máscara %d para exibir um caractere. Note que existe uma relação entre as letras maiúsculas e minúsculas.
+
+17. Codifique um programa que leia uma string e mostre se existe a letra ‘j’ nessa string. Caso exista, mostre qual é a posição da primeira ocorrência desse caractere.
+
+18. Escreva um programa para ler uma string qualquer e exiba as seguintes informações: quantidade de caracteres, primeira e última letra.
+
+19. Escreva um programa para ler uma frase de no máximo 70 caracteres e exibir a quantidade de vogais dessa frase.
+
+20. Escreva um programa para ler uma frase de no máximo 70 caracteres e exibir a quantidade de consoantes dessa frase.
+
+21. Escreva um programa que leia uma string qualquer e mostre-a invertida. 
+```bash
+Ex.: 
+Entrada: CASA
+Saída: ASAC
+```
+
+22. Um palíndromo é uma cadeia de caracteres que representa a mesma palavra nos sentidos direto e inverso. Por exemplo, “asa” é um palíndromo, porque o inverso dela também é “asa”. Faça um programa que leia uma string e diga se esta é ou não um palíndromo.
+
+23. Escreva um programa que leia uma frase e mostre quantas letras “a” ou “A” foram digitadas.
+
+24. Faça um programa que leia uma string com letras minúsculas e converta todas as consoantes para maiúsculas.
+
+25. Faça um programa que leia uma string com letras minúsculas e converta todas as vogais para maiúsculas.
+
 ### Matrizes
 
 
