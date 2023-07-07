@@ -44,11 +44,88 @@ A Figura a seguir mostra a representação de uma string com o valor `verde e am
 
 <img src="./assets/img/string.drawio.png" width="550"/>
 
+Devido à necessidade do `'\0'`, os vetores que armazenam strings devem ter sempre uma posição a mais do que o número de caracteres a serem armazenados.
+
 ### Leitura e Escrita de Strings
+
+Para ler o valor de uma string utiliza-se a função `fgets(variável, tamanho, stdin)` da biblioteca `stdlib.h`. A exibição de uma string pode ser feita a partir do especificador `%s` na função `printf()`. O exemplo de código a seguir mostra as ações de declaração, leitura e escrita de uma string de tamanho 20.
+
+```C
+#include <stdio.h>
+
+int main(void) {
+ char p[20];
+ printf("Informe uma cadeia de caracteres: ");
+ fgets(p, 20, stdin);
+ printf("A string informada foi: %s", p);
+}
+```
 
 ### Manipulação de Strings
 
+Como a string não é um tipo básico da linguagem C, operações como atribuição e comparação não podem ser feitas diretamente com os operadores disponíveis. A partir dessa premissa a linguagem C possui uma biblioteca própria para realizar as operações em strings. Essa biblioteca é a `string.h`.
+
+| Função                        | Significado                                                                    |
+|-------------------------------|--------------------------------------------------------------------------------|
+| `fgets(string, tamanho, stdin)` | Lê uma string                                                                  |
+| `strcmp(string1, string2)`      | Compara duas strings. Se `strcmp(string1, string2) == 0`, então elas são iguais. |
+| `strcpy(destino, origem)`       | Copia uma string para outra                                                    |
+| `strlen(string)`                | Calcula o tamanho da string                                                    |
+| `strcat(destino, origem)`       | Concatena duas strings                                                         |
+| `strtok(string, “\n”)`          | Remove o caractere de nova linha                                               |
+
+O código a seguir mostra exemplos de uso para as funções listadas na tabela anterior.
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+ char x[20], y[20];
+ int i;
+ printf("Informe uma string: ");
+ fgets(x, 20, stdin); 
+ // Compara se a string digitada é igual a "sim"
+ if (strcmp(x, "sim")) {
+   printf("A string digitada é %s", x);
+ }
+ // Copiar uma string para outra
+ strcpy(y, x);
+ printf("String copiada: %s", y);
+ // Obter o tamanho da string
+ printf("Tamanho da string: %ld", strlen(x));
+ // Concatenar string
+ strcat(x, " teste");
+ printf("%s", x);
+}
+```
+
 ## Matrizes
+
+Uma matriz é uma coleção homogênea bidimensional no qual os elementos são distribuídos em linhas e colunas. Se `A` é uma matriz `m x n`, então as suas linhas são indexadas de `0` a `m - 1` e as suas colunas de `0` a `n - 1`.	Para acessar um elemento de `A`, utiliza-se `A[i][j]`, sendo que `i` é o índice da linha e `j` o índice da coluna que o elemento ocupa.
+
+O código do exemplo a seguir mostra a declaração de uma matriz `3 x 2`, a leitura e a impressão de todos os elementos dessa matriz:
+
+```C
+#include <stdio.h>
+
+int main(void) {
+ int a[3][2];
+ int i, j;
+ for (i = 0; i < 3; i++) {
+   for (j = 0; j < 2; j++) {
+     printf("a[%d][%d]: ", i, j);
+     scanf("%d", &a[i][j]);
+   }
+ }
+ for (i = 0; i < 3; i++) {
+   for (j = 0; j < 2; j++) {
+     printf("%d\t", a[i][j]);     
+   }
+   printf("\n");
+ }
+}
+```
 
 ## Exercícios
 
