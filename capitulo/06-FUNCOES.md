@@ -57,7 +57,7 @@ Se uma função não é do tipo `void`, então ela deve, obrigatoriamente, devol
 
 A Figura a seguir mostra o esquema de uma função de acordo com as informações de entrada e de saída:
 
-<img src="./assets/img/funcao.drawio.png" />
+<img src="./assets/img/funcao.drawio.png" width="500"/>
 
 O exemplo a seguir mostra uma função que calcula a hipotenusa de um triângulo retângulo.
 
