@@ -25,6 +25,10 @@ Sendo que:
 - `parâmetros`: é uma lista de variáveis que representam valores de entrada para a função e deve ser void caso não haja valores de entrada;
 - dentro do corpo da função, a primeira seção é destinada à declaração das variáveis e segunda, aos comandos.
 
+A Figura a seguir mostra o esquema de uma função de acordo com as informações de entrada e de saída:
+
+<img src="./assets/img/funcao.drawio.png" width="500"/>
+
 ## Funções que não devolvem resposta
 
 Exemplo a seguir mostra uma função que não tem valor de resposta e não recebe argumentos ao ser chamada. 
@@ -54,10 +58,6 @@ void hello() {
 ## Funções que devolvem resposta
 
 Se uma função não é do tipo `void`, então ela deve, obrigatoriamente, devolver um valor como resultado de sua execução. Para isso, a função deve empregar o comando return. Esse comando faz com que o controle retorne ao ponto onde ela foi chamada no programa, interrompendo imediatamente a sua execução.
-
-A Figura a seguir mostra o esquema de uma função de acordo com as informações de entrada e de saída:
-
-<img src="./assets/img/funcao.drawio.png" width="500"/>
 
 O exemplo a seguir mostra uma função que calcula a hipotenusa de um triângulo retângulo.
 
