@@ -265,5 +265,6 @@ A fim de fornecer respostas a algumas questões formuladas pelos engenheiros res
 
 A Figura a seguir apresenta uma sugestão de como as informações do questionário poderia ser armazenada:
 
+<img src="./assets/img/ex33-02.drawio.png"/>
 
 [Voltar](../)
