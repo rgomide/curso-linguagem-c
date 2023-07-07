@@ -131,6 +131,58 @@ int main(void) {
 
 ### Vetores
 
+1. Codifique um programa para solicitar 5 números, via teclado, e exibi-los na ordem inversa àquela em que foram fornecidos.
+
+2. Crie um programa que armazene 10 números em um vetor A, e gere um vetor B onde cada elemento é o quadrado do elemento de A.
+
+3. Dadas as temperaturas registradas diariamente, durante uma semana, determine em quantos dias a temperatura esteve acima da média.
+
+4. Faça um algoritmo que copie o conteúdo de um vetor em um segundo vetor.
+
+5. Faça um algoritmo que some o conteúdo de dois vetores e armazene o resultado em um terceiro vetor.
+
+6. Faça um algoritmo que leia um vetor de 5 posições e copie os elementos para um novo vetor na ordem inversa.
+
+7. Faça um algoritmo que faça a união de dois vetores de mesmo tamanho e mesmo tipo em um terceiro vetor com dobro do tamanho.
+
+8. Escrever um algoritmo que lê um vetor N(10) e o escreve. Troque, a seguir, o 1º elemento com o último, o 2º com o penúltimo etc. até o 5º com o 6º e escreva o vetor N assim modificado.
+
+9. Fazer um algoritmo que leia duas variáveis compostas unidimensionais, contendo, cada uma, 5 elementos inteiros. Intercale os elementos destes dois conjuntos formando uma nova variável composta unidimensional de 10 elementos. Escreva o novo conjunto obtido.
+
+10. Uma certa fábrica produziu dois tipos de motores M1 e M2 nos meses de janeiro até dezembro e o número de motores produzidos foi registrado na tabela a seguir:
+
+<img src="./assets/img/ex10-01.drawio.png"/>
+
+O setor de controle de vendas tem uma tabela do custo e do lucro (em unidades monetárias) obtidos com cada motor.
+
+<img src="./assets/img/ex10-02.drawio.png"/>
+
+Para saber o custo e o lucro dos meses de janeiro até dezembro, basta que se faça o produto matricial das duas tabelas.
+
+<img src="./assets/img/ex10-03.drawio.png"/>
+
+Faça um algoritmo que, a partir da produção mensal de motores M1 e M2 e seus respectivos custos e lucros, calcule o custo e o lucro em cada um dos meses e o custo e o lucro anuais.
+
+11. Desenvolva um programa que solicite a idade e o sexo de 10 pessoas e armazene esses dados em vetores. O programa deve oferecer um menu que permita ao usuário as seguintes opções:
+    1. Informar os dados das 10 pessoas.
+    2. Sair
+
+- Após o usuário ter informado os dados das 10 pessoas (caso a opção 1 seja selecionada), o programa deve oferecer as seguintes opções em um segundo menu:
+
+    1. Consultar a idade do homem mais idoso
+    2. Consultar a média das idades das mulheres
+    3. Sair
+
+A cada consulta realizada o programa deverá apresentar novamente o menu com as opções disponíveis e só deverá ser encerrado quando o usuário escolher a opção Sair.
+
+12. Desenvolva um algoritmo que ofereça ao usuário as seguintes opções:
+    1. Inserir números inteiros em um vetor de até 10 posições. Os números devem ser inseridos de modo que o vetor nunca fique desordenado (em nenhum momento). Ao se tentar inserir um número em um vetor cheio o programa deve acusar que não será possível realizar a inserção. Após a inserção, o algoritmo deve imprimir a quantidade de elementos do vetor e os respectivos elementos.
+    2. Excluir um elemento do vetor a partir de seu valor. O usuário deverá entrar com o número que deseja excluir do vetor e o mesmo deverá ser retirado. Os demais elementos que se localizam após o elemento excluído devem ser realocados para suas novas posições. O algoritmo deve informar quando não existirem mais elementos para excluir.
+    3. Imprimir na tela os elementos do vetor em ordem `CRESCENTE`.
+    4. Imprimir na tela os elementos do vetor em ordem `DECRESCENTE`.
+    5. Sair do programa.
+    - Obs: O objetivo do item 1 não é o de ordenar o vetor, mas sim de manter o vetor ordenado a cada inserção, sendo assim, o vetor nunca chegará a estar desordenado, ou seja, antes de inserir cada elemento, o algoritmo deve procurar em qual posição o mesmo deve ser inserido, e depois realizar a inserção exatamente naquela posição.
+
 ### Strings
 
 ### Matrizes
