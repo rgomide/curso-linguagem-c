@@ -189,7 +189,9 @@ A cada consulta realizada o programa deverá apresentar novamente o menu com as 
 
 14. Sem utilizar a função `strlen`, codifique um programa que calcule a quantidade de caracteres válidos de uma string.
 
-Codifique um programa que converta todos os caracteres de uma string para letras maiúsculas. Obs.: um caractere pode ser representado por um número do tipo inteiro, utilize a máscara `%d` para exibir um caractere. Note que existe uma relação entre as letras maiúsculas e minúsculas.
+15. Codifique um programa que converta todos os caracteres de uma string para letras maiúsculas. 
+
+Obs.: um caractere pode ser representado por um número do tipo inteiro, utilize a máscara `%d` para exibir um caractere. Note que existe uma relação entre as letras maiúsculas e minúsculas.
 
 <img src="./assets/img/2023-07-07-17-50-02.png" width="900"/>
 
