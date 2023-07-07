@@ -38,6 +38,12 @@ int main(void) {
 
 ## Strings
 
+Na linguagem C uma String não é um tipo de dados básico. Uma string é uma série de caracteres terminada com um caractere representado por `'\0'`. Um vetor de caracteres é utilizado para representar uma string. Essa representação possibilita que os caracteres que formam um string sejam acessados individualmente.
+
+A Figura a seguir mostra a representação de uma string com o valor `verde e amarelo`.
+
+<img src="./assets/img/string.drawio.png" width="550"/>
+
 ### Leitura e Escrita de Strings
 
 ### Manipulação de Strings
