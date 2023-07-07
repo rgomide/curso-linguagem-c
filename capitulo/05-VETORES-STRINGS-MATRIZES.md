@@ -222,6 +222,23 @@ Saída: ASAC
 
 ### Matrizes
 
+26. Codifique um programa para ler uma matriz quadrada de ordem 3 e exibir apenas os elementos da diagonal principal.
+
+27. Desenvolva um programa que leia uma matriz A de dimensão 2 x 5 e exiba a matriz transposta.
+
+28. Desenvolva um programa que leia duas matrizes (2 x 3 e 3 x 2) do tipo inteiro. Efetue a multiplicação da matriz e apresente a matriz resultante.
+
+29. Desenvolva um programa que leia duas matrizes do tipo inteiro m1 e m2 de ordem 3. Após a inserção dos elementos das matrizes o programa deve oferecer ao usuário as seguintes opções:
+    1. Mostrar as duas matrizes
+    2. Multiplicar as duas matrizes e mostrar a matriz resultante
+    3. Somar as duas matrizes e mostrar a matriz resultante
+
+30. Escreva um programa para ler 9 números inteiros para preencher uma matriz 3x3, ou seja, com 3 linhas e 3 colunas (considere que não serão informados valores duplicados). A seguir, leia um número inteiro e mostre uma mensagem indicando se o valor lido existe ou não na matriz.
+
+31. A matriz x, de 10 linhas e quatro colunas, contém informações sobre alunos de uma universidade. Os elementos da primeira, segunda, terceira e quarta colunas são, respectivamente, o número de matrícula, sexo (0 ou 1), número do curso e a média geral no curso. Faça um algoritmo que:
+    1. leia as informações sobre os 10 alunos;
+    2. determine e imprima o número de matrícula do aluno de sexo 1, curso 153 que obteve a melhor média. Supor a inexistência de empate.
+
 
 
 [Voltar](../)
