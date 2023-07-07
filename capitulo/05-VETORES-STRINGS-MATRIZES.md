@@ -239,6 +239,31 @@ Saída: ASAC
     1. leia as informações sobre os 10 alunos;
     2. determine e imprima o número de matrícula do aluno de sexo 1, curso 153 que obteve a melhor média. Supor a inexistência de empate.
 
+32. A tabela dada a seguir contém vários itens que estão estocados em vários armazéns  de uma companhia. É fornecido, também, o custo de cada um dos produtos armazenados.
+
+<img src="./assets/img/ex32-01.drawio.png"/>
+
+Faça um programa que:
+- leia o estoque inicial;
+- determine e imprima quantos itens estão armazenados em cada armazém;
+- qual o armazém que possui a maior quantidade de produto 2 armazenado;
+- o custo total de:
+  - cada produto em cada armazém;
+  - estoque em cada armazém;
+  - cada produto em todos os armazéns.
+
+33. Visando fazer um levantamento das atuais condições de tráfego de uma malha rodoviária e definir alternativas para uma reformulação futura, foi realizada uma pesquisa de tráfego do tipo ORIGEM-DESTINO. Esta pesquisa submeteu aos motoristas que trafegavam pela região em estudo um questionário com as seguintes perguntas:
+
+<img src="./assets/img/ex33-01.drawio.png"/>
+
+As respostas a estas três questões de cada entrevista, utilizando códigos numéricos (1, 2, 3, 4), estão disponíveis numa unidade de entrada. A última entrevista possui as três respostas iguais a zero.
+
+A fim de fornecer respostas a algumas questões formuladas pelos engenheiros responsáveis pelo estudo do problema, fazer um algoritmo que calcule e imprima:
+- a matriz origem-destino para cada tipo de veículo;
+- o número de veículos que tem Belo Horizonte como origem;
+- a quantidade de ônibus que se originam de Brasília e se destinam a Petrópolis ou Barbacena.
+
+A Figura a seguir apresenta uma sugestão de como as informações do questionário poderia ser armazenada:
 
 
 [Voltar](../)
