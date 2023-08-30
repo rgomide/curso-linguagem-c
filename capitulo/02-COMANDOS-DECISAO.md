@@ -165,55 +165,48 @@ int main() {
 
 2. Uma empresa determinou um reajuste salarial de 5% a todos os seus funcionários. Além disso, concedeu um abono de R$ 100,00 para aqueles que recebem até R$ 750,00. Dado o valor do salário de um funcionário, informar para quanto ele será reajustado.
 
-3. Seja `e` uma variável contendo o número de erros detectados num certo processo. Codifique uma instrução capaz de exibir saídas como:
-```
-1 erro detectado.
-5 erros detectados.
-```
-Obs.: a variável `e` é lida pelo usuário.
+3. Codifique uma instrução para exibir valores lógicos como `true` e `false`. Para o valor 0 deve aparecer `false` e para qualquer outro, `true`.
 
-4. Codifique uma instrução para exibir valores lógicos como `true` e `false`. Para o valor 0 deve aparecer `false` e para qualquer outro, `true`.
-
-5. Dados três números, verifique se eles podem representar as medidas dos lados de um triângulo e, se puderem, classificar o triângulo em equilátero (3 lados iguais), isósceles (2 lados iguais) ou escaleno (3 lados diferentes).
+4. Dados três números, verifique se eles podem representar as medidas dos lados de um triângulo e, se puderem, classificar o triângulo em equilátero (3 lados iguais), isósceles (2 lados iguais) ou escaleno (3 lados diferentes).
    - `Propriedade`: o comprimento de cada lado de um triângulo é menor do que a soma dos comprimentos dos outros dois lados.
    - `Definição 1`: chama-se de triângulo equilátero o que tem os comprimentos dos três lados iguais;
    - `Definição 2`: chama-se de triângulo isóscele o triângulo que tem os comprimentos de dois lados iguais;
    - `Definição 3`: chama-se triângulo escaleno o triângulo que tem os comprimentos dos três lados diferentes.
 
-6. Numa faculdade, os alunos com média pelo menos `7.0` são aprovados, aqueles com média inferior a `3.0` são reprovados e os demais ficam de recuperação. Dadas as duas notas de um aluno, informe sua situação. Faça um algoritmo que leia a média de um aluno e classifique a sua situação como `aprovado`, `reprovado` ou `recuperação`.
+5. Numa faculdade, os alunos com média pelo menos `7.0` são aprovados, aqueles com média inferior a `3.0` são reprovados e os demais ficam de recuperação. Dadas as duas notas de um aluno, informe sua situação. Faça um algoritmo que leia a média de um aluno e classifique a sua situação como `aprovado`, `reprovado` ou `recuperação`.
 
-7. Dados a altura e o sexo de uma pessoa, determine seu peso ideal de acordo com as fórmulas a seguir:
+6. Dados a altura e o sexo de uma pessoa, determine seu peso ideal de acordo com as fórmulas a seguir:
    - para homens o peso ideal é `72.7 * altura - 58`;
    - para mulheres o peso ideal é `62.1 * altura - 44.7`.
 
-8. O perfil de uma pessoa pode ser determinado a partir da sua data de nascimento, conforme exemplificado a seguir. Dada uma data de nascimento, informe o perfil correspondente.
+7. O perfil de uma pessoa pode ser determinado a partir da sua data de nascimento, conforme exemplificado a seguir. Dada uma data de nascimento, informe o perfil correspondente.
 
 ![](./assets/img/2023-07-03-19-02-24.png)
 
-9. Admitindo que uma data é lida pelo algoritmo em uma variável inteira, e não em uma variável do tipo data, crie um algoritmo que leia uma data no formato DDMMAA e imprima essa data no formato AAMMDD, onde:
+8. Admitindo que uma data é lida pelo algoritmo em uma variável inteira, e não em uma variável do tipo data, crie um algoritmo que leia uma data no formato DDMMAA e imprima essa data no formato AAMMDD, onde:
    - A letra D corresponde a dois algarismos representando o dia; 
    - A letra M corresponde a dois algarismos representando o mês; 
    - A letra A corresponde aos dois últimos algarismos representando o ano.
 
-10. Faça um algoritmo que leia dois números A e B e imprima o maior deles.
+9. Faça um algoritmo que leia dois números A e B e imprima o maior deles.
 
-11. Faça um algoritmo que leia um número inteiro e indique se ele é par ou ímpar.
+10. Faça um algoritmo que leia um número inteiro e indique se ele é par ou ímpar.
 
-12. Faça um algoritmo que leia um número N e imprima “F1”, “F2” ou “F3”, conforme a condição: 
+11. Faça um algoritmo que leia um número N e imprima “F1”, “F2” ou “F3”, conforme a condição: 
     - `F1`, se N <= 10
     - `F2`, se N > 10 e N <= 100 
     - `F3`, se n > 100
 
-13. Construa um algoritmo que receba como entrada três valores e os imprima em ordem crescente.
+12. Construa um algoritmo que receba como entrada três valores e os imprima em ordem crescente.
 
-14. Considere que o último concurso vestibular apresentou três provas: Português, Matemática e Conhecimentos Gerais. Construa um algoritmo que forneça: 
+13. Considere que o último concurso vestibular apresentou três provas: Português, Matemática e Conhecimentos Gerais. Construa um algoritmo que forneça: 
     1. a leitura das notas em cada prova do candidato;
     2. a média do candidato;
     3. uma informação dizendo se o candidato foi aprovado ou não. Considere que um candidato é aprovado se sua média for maior que 7.0 e se não apresentou nenhuma nota abaixo de 5.0.
 
-15. Uma empresa de vendas tem três corretores. A empresa paga ao corretor uma comissão calculada de acordo com o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000.00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000.00 e R$ 50.000.00 (incluindo extremos) a comissão será de 9.5%. Em qualquer outro caso, a comissão será de 7%. Escreva um algoritmo que gere um relatório contendo o valor da venda e a comissão de cada um dos corretores. O relatório deve mostrar também o total de vendas da empresa.
+14. Uma empresa de vendas tem três corretores. A empresa paga ao corretor uma comissão calculada de acordo com o valor de suas vendas. Se o valor da venda de um corretor for maior que R$ 50.000.00 a comissão será de 12% do valor vendido. Se o valor da venda do corretor estiver entre R$ 30.000.00 e R$ 50.000.00 (incluindo extremos) a comissão será de 9.5%. Em qualquer outro caso, a comissão será de 7%. Escreva um algoritmo que gere um relatório contendo o valor da venda e a comissão de cada um dos corretores. O relatório deve mostrar também o total de vendas da empresa.
 
-16. Escreva um algoritmo que determine o número de dias que uma pessoa já viveu a partir da data de nascimento. Leia os valores para o dia, mês e ano de nascimento separadamente. Considere que um mês tenha 30 dias e o dia de nascimento e o dia atual fazem parte do total de dias vividos.
+15. Escreva um algoritmo que determine o número de dias que uma pessoa já viveu a partir da data de nascimento. Leia os valores para o dia, mês e ano de nascimento separadamente. Considere que um mês tenha 30 dias e o dia de nascimento e o dia atual fazem parte do total de dias vividos.
 
     - Ex.: Utilize os dados a seguir para validar o algoritmo desenvolvido:
 
@@ -224,21 +217,21 @@ Obs.: a variável `e` é lida pelo usuário.
 | 15/09/2019 |     12/03/1990     | 10.624       |
 | 15/09/2019 |     09/10/2000     | 6.817        |
 
-17. Faça um algoritmo que leia os valores A, B e C. Mostre uma mensagem que informe se a soma de A com B é menor, maior ou igual a C.
+16. Faça um algoritmo que leia os valores A, B e C. Mostre uma mensagem que informe se a soma de A com B é menor, maior ou igual a C.
 
-18. Suponha que um caixa disponha apenas de notas de 1, 10 e 100 reais. Considerando que alguém está pagando uma compra, escreva um algoritmo que mostre o número mínimo de notas que o caixa deve fornecer como troco. Mostre também: o valor da compra, o valor do troco e a quantidade de cada tipo de nota do troco. Suponha que o sistema monetário não utilize moedas.
+17. Suponha que um caixa disponha apenas de notas de 1, 10 e 100 reais. Considerando que alguém está pagando uma compra, escreva um algoritmo que mostre o número mínimo de notas que o caixa deve fornecer como troco. Mostre também: o valor da compra, o valor do troco e a quantidade de cada tipo de nota do troco. Suponha que o sistema monetário não utilize moedas.
 
-19. Escreva um algoritmo que, para uma conta bancária, leia o seu número, o saldo, o tipo de operação a ser realizada (depósito ou retirada) e o valor da operação. Após, determine e mostre o novo saldo. Se o novo saldo ficar negativo, deve ser mostrada, também, a mensagem “conta estourada”.
+18. Escreva um algoritmo que, para uma conta bancária, leia o seu número, o saldo, o tipo de operação a ser realizada (depósito ou retirada) e o valor da operação. Após, determine e mostre o novo saldo. Se o novo saldo ficar negativo, deve ser mostrada, também, a mensagem “conta estourada”.
 
-20. Um hotel cobra R$ 60.00 a diária e mais uma taxa de serviços. A taxa de serviços é de: 
+19. Um hotel cobra R$ 60.00 a diária e mais uma taxa de serviços. A taxa de serviços é de: 
     - R$ 5.50 por diária, se o número de diárias for maior que 15; 
     - R$ 6.00 por diária, se o número de diárias for igual a 15; 
     - R$ 8.00 por diária, se o número de diárias for menor que 15. 
 - Construa um algoritmo que mostre o total da conta de um cliente.
 
-21. Faça um algoritmo que leia 3 números inteiros distintos e escreva o menor deles.
+20. Faça um algoritmo que leia 3 números inteiros distintos e escreva o menor deles.
 
-22. Suponha que o conceito de um aluno seja determinado em função da sua nota. Suponha, também, que esta nota seja um valor inteiro na faixa de 0 a 100, conforme a seguinte faixa:
+21. Suponha que o conceito de um aluno seja determinado em função da sua nota. Suponha, também, que esta nota seja um valor inteiro na faixa de 0 a 100, conforme a seguinte faixa:
 
 |   Nota   |   Conceito   |
 |:--------:|:------------:|
